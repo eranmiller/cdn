@@ -1,6 +1,6 @@
 (function($, window, document, undefined) {
     'use strict';
-    
+    console.log("diamonds loaded!");
     var Diamonds = function(customOptions) {
         this.options = {
             itemSelector : ".item",
